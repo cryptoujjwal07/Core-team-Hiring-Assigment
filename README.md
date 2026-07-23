@@ -136,19 +136,27 @@ Authorization: Bearer <your_jwt_token>
 
 ## 📸 Screenshots
 
-**Register a new user — `POST /api/register`:**
+### Register User (`POST /api/register`)
 
-![Register response]([./screenshots/register-response.png](https://drive.google.com/file/d/1VNTqqVTkzNg6glel_Qkfj9TrVPu76nHa/view?usp=sharing))
+Creates a new user account by providing a name, email, and password.
 
-**Login and receive a JWT token — `POST /api/login`:**
-
-![Login response]([./screenshots/login-response.png](https://drive.google.com/file/d/1P_hjPhXT2H3Bjbc6kxkazS_HE0Q8seiK/view?usp=sharing))
-
-**Access the protected profile route with the Bearer Token — `GET /api/profile`:**
-
-![Profile response with Bearer Token]([./screenshots/profile-response.png](https://drive.google.com/file/d/1217Ah3FuMj-uYW5WtFvla66NNHJL6JrW/view?usp=sharing))
+![Register Response](./Screenshot%202026-07-23%20174449.png)
 
 ---
+
+### Login User (`POST /api/login`)
+
+Logs in the registered user and returns a JWT token.
+
+![Login Response](./Screenshot%202026-07-23%20174508.png)
+
+---
+
+### Get User Profile (`GET /api/profile`)
+
+Accesses the protected profile route using the JWT Bearer Token.
+
+![Profile Response](./Screenshot%202026-07-23%20175258.png)
 
 ## 📋 Response Codes
 
