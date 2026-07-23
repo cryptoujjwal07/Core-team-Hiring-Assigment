@@ -138,15 +138,15 @@ Authorization: Bearer <your_jwt_token>
 
 **Register a new user — `POST /api/register`:**
 
-![Register response](./screenshots/register-response.png)
+![Register response]([./screenshots/register-response.png](https://drive.google.com/file/d/1VNTqqVTkzNg6glel_Qkfj9TrVPu76nHa/view?usp=sharing))
 
 **Login and receive a JWT token — `POST /api/login`:**
 
-![Login response](./screenshots/login-response.png)
+![Login response]([./screenshots/login-response.png](https://drive.google.com/file/d/1P_hjPhXT2H3Bjbc6kxkazS_HE0Q8seiK/view?usp=sharing))
 
 **Access the protected profile route with the Bearer Token — `GET /api/profile`:**
 
-![Profile response with Bearer Token](./screenshots/profile-response.png)
+![Profile response with Bearer Token]([./screenshots/profile-response.png](https://drive.google.com/file/d/1217Ah3FuMj-uYW5WtFvla66NNHJL6JrW/view?usp=sharing))
 
 ---
 
